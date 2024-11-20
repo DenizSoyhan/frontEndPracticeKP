@@ -169,6 +169,8 @@ nav a:focus{
     margin-bottom: 10px;
 }
 
+
+
 @media (min-width: 850px) {
     .containerNav{
         flex-direction: row;
@@ -246,6 +248,7 @@ nav a:focus{
     margin-bottom: 0;
     margin-top: 0;        
     }
+    
 }
 
 /*widgets*/
@@ -266,7 +269,7 @@ nav a:focus{
 
 .widgetRecentPost:last-child{
    
-    border-bottom: none;
+    border: 0px;
     margin-bottom: 0;
 }
 .widgetTitle{
@@ -281,6 +284,10 @@ nav a:focus{
         padding: 10px;
 
         
+    }
+    .sidebarWidget:last-child{
+        border-bottom: 20px solid #d8d8d8;
+        margin-bottom: 10px;
     }
     .widgetRecentPost{
         display:flex;
@@ -297,7 +304,7 @@ nav a:focus{
     }
     .widgetRecentPost:last-child{
    
-        border-bottom: 0px;
+        border: 0px;
         margin-bottom: 0;
     }
 
